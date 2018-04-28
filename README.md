@@ -18,10 +18,13 @@ command: start | restart | stop | status
 ./daemon start taskname
 ```
 
-### For exmple to use:
+### Using the example:
+
+```
 go build 
 nohup ./daemon &
 ./daemon start ./test/tasktest
+```
 
 ### route:
 
